@@ -1,4 +1,5 @@
 <?php
+//Manahil Syed, 9/25/2024, IT-202-005, Phase 1 assignment, ms379@njit.edu
 if (!isset($_SESSION['login'])) {
 ?>
   <h2>Please log in to the Pet Shop Inventory Website</h2><br>

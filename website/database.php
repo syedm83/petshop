@@ -1,5 +1,7 @@
 -- Active: 1725560574054@@sql1.njit.edu@3306@ms379
+
 <?php
+//Manahil Syed, 9/25/2024, IT-202-005, Phase 1 assignment, ms379@njit.edu
  function getDB() {
    $host = 'sql1.njit.edu';
    $port = 3306;
