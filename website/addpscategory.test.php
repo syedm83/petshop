@@ -1,4 +1,5 @@
 <?php
+//Manahil Syed, 10/18/2024, IT-202-005, Phase 2 assignment, ms379@njit.edu
 include("pscategory.php");
 $PScategoryID = $_GET['PScategoryID'];
 if ((trim($PScategoryID) == '') or (!is_numeric($PScategoryID))) {

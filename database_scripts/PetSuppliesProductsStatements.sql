@@ -1,3 +1,4 @@
+/*Manahil Syed, 10/18/2024, IT-202-005, Phase 2 assignment, ms379@njit.edu*/
 CREATE TABLE PSProducts (
  PSProductID        INT(11)        NOT NULL,
  PSProductCode      VARCHAR(10)    NOT NULL   UNIQUE,

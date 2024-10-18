@@ -1,3 +1,4 @@
+/*Manahil Syed, 10/18/2024, IT-202-005, Phase 2 assignment, ms379@njit.edu*/
 Create Category
 
 http://localhost:3000/addpsproduct.test.php?PSProductID=6000&PSProductCode=MEOW&PSProductName=Tester&PSdescription=This is a test product&PSAisle_Number=1A&PSCategoryID=1&PSWholesalePrice=10.00&PSListPrice=15.00

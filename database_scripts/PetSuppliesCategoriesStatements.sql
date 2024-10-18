@@ -1,3 +1,5 @@
+/*Manahil Syed, 10/18/2024, IT-202-005, Phase 2 assignment, ms379@njit.edu*/
+
 CREATE TABLE PScategories (
  PScategoryID       INT(11)        NOT NULL,
  PScategoryCode     VARCHAR(10)    NOT NULL,
