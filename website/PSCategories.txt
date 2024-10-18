@@ -1,0 +1,25 @@
+Create Category
+
+http://localhost:3000/addpscategory.test.php?PScategoryID=6000&PScategoryCode=meow&PScategoryName=tester&PScategoryModel=large
+
+Verify Create Category
+
+http://localhost:3000/listpscategories.test.php
+
+
+Update Category
+
+http://localhost:3000/changepscategory.test.php?PScategoryID=6000&PScategoryCode=MEOW&PScategoryName=CatStore&PScategoryModel=limited
+
+Verify Update Category
+
+http://localhost:3000/listpscategories.test.php
+
+
+Delete Category
+
+http://localhost:3000/removepscategory.test.php?categoryID=6000
+
+Verify Delete Category
+
+http://localhost:3000/listpscategories.test.php
