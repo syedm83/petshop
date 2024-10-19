@@ -54,10 +54,10 @@ class PSProduct
    function saveProduct()
    {
        $db = getDB();
-       $query = "INSERT INTO PSProducts VALUES (?, ?, ?, ?, ?, ?, ?, ?, NOW())"; // Automatically set DateCreated
+       $query = "INSERT INTO PSProducts VALUES (?, ?, ?, ?, ?, ?, ?, ?, NOW())";
        $stmt = $db->prepare($query);
        $stmt->bind_param(
-           "isssidsd", // Types: i = integer, s = string, d = decimal
+           "isssidsd",
            $this->PSProductID,
            $this->PSProductCode,
            $this->PSProductName,
@@ -137,7 +137,7 @@ class PSProduct
                 "PSAisle_Number = ?, PSCategoryID = ?, PSWholesalePrice = ?, PSListPrice = ? WHERE PSProductID = ?";
        $stmt = $db->prepare($query);
        $stmt->bind_param(
-           "sssdidsi", // Types: s = string, d = decimal, i = integer
+           "sssdidsi", 
            $this->PSProductCode,
            $this->PSProductName,
            $this->PSdescription,

@@ -23,40 +23,31 @@ class PSCategory
     return $output;
 }
    public function savePSCategory() {
-    // Get the database connection
     $db = getDB();
 
-    // Prepare the SQL statement with placeholders for the values
     $query = "INSERT INTO PScategories (PScategoryID, PScategoryCode, PScategoryName, PScategoryModel, DateCreated) 
               VALUES (?, ?, ?, ?, NOW())";
 
-    // Prepare the statement
     $stmt = $db->prepare($query);
     
     if (!$stmt) {
-        // Output error if preparation failed
         die('Prepare failed: ' . $db->error);
     }
 
-    // Bind parameters to the placeholders
-    // i = integer, s = string
     $stmt->bind_param(
-        "isss", // Expecting: integer, string, string, string
-        $this->PScategoryID,       // integer
-        $this->PScategoryCode,     // string
-        $this->PScategoryName,     // string
-        $this->PScategoryModel     // string
+        "isss", 
+        $this->PScategoryID,       
+        $this->PScategoryCode,     
+        $this->PScategoryName,     
+        $this->PScategoryModel    
     );
 
-    // Execute the prepared statement
     $result = $stmt->execute();
     
     if (!$result) {
-        // Output error if execution failed
         die('Execute failed: ' . $stmt->error);
     }
 
-    // Close the statement and database connection
     $stmt->close();
     $db->close();
 
@@ -117,13 +108,12 @@ class PSCategory
         die('Prepare failed: ' . $db->error);
     }
 
-    // Bind the parameters (3 strings and 1 integer)
     $stmt->bind_param(
-        "sssi", // s = string, i = integer
-        $this->PScategoryCode,     // string
-        $this->PScategoryName,     // string
-        $this->PScategoryModel,    // string
-        $this->PScategoryID        // integer
+        "sssi", 
+        $this->PScategoryCode,     
+        $this->PScategoryName,     
+        $this->PScategoryModel,    
+        $this->PScategoryID        
     );
 
     $result = $stmt->execute();
