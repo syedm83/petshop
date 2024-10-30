@@ -1,5 +1,5 @@
 <?php
-//Manahil Syed, 10/18/2024, IT-202-005, Phase 2 assignment, ms379@njit.edu
+//Manahil Syed, 10/30/2024, IT-202-005, Phase 3 assignment, ms379@njit.edu
 
 require_once('database.php');
 
@@ -51,7 +51,7 @@ class PSProduct
        return $output;
    }
 
-   function saveProduct()
+   function savePSProduct()
    {
        $db = getDB();
        $query = "INSERT INTO PSProducts VALUES (?, ?, ?, ?, ?, ?, ?, ?, NOW())";
@@ -72,7 +72,7 @@ class PSProduct
        return $result;
    }
 
-   static function getProducts()
+   static function getPSProducts()
    {
        $db = getDB();
        $query = "SELECT * FROM PSProducts";
@@ -101,7 +101,7 @@ class PSProduct
        }
    }
 
-   static function findProduct($PSProductID)
+   static function findPSProduct($PSProductID)
    {
        $db = getDB();
        $query = "SELECT * FROM PSProducts WHERE PSProductID = ?";
@@ -130,7 +130,7 @@ class PSProduct
        }
    }
 
-   function updateProduct()
+   function updatePSProduct()
    {
        $db = getDB();
        $query = "UPDATE PSProducts SET PSProductCode = ?, PSProductName = ?, PSdescription = ?, " .
@@ -152,7 +152,7 @@ class PSProduct
        return $result;
    }
 
-   function removeProduct()
+   function removePSProduct()
    {
        $db = getDB();
        $query = "DELETE FROM PSProducts WHERE PSProductID = ?";

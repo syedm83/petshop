@@ -1,3 +1,5 @@
+<!-- Manahil Syed, 10/30/2024, IT-202-005, Phase 3 assignment, ms379@njit.edu -->
+
 <table width="100%" cellpadding="3">
    <?php
    if (!isset($_SESSION['login'])) {
@@ -52,9 +54,9 @@
            <td>
                <form action="index.php" method="post">
                    <label>Search for Product:</label><br>
-                   <input type="text" name="PSproductID" size="14" />
+                   <input type="text" name="PSProductID" size="14" />
                    <input type="submit" value="find" />
-                   <input type="hidden" name="content" value="updateproduct">
+                   <input type="hidden" name="content" value="updatepsproduct">
                    </form>
            </td>
        </tr>
@@ -64,7 +66,7 @@
                    <label>Search for Category:</label><br>
                    <input type="text" name="PScategoryID" size="14" />
                    <input type="submit" value="find" />
-                   <input type="hidden" name="content" value="displaycategory">
+                   <input type="hidden" name="content" value="displaypscategory">
                </form>
            </td>
        </tr>

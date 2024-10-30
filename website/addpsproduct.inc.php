@@ -1,4 +1,5 @@
 <?php
+//Manahil Syed, 10/30/2024, IT-202-005, Phase 3 assignment, ms379@njit.edu
 
 //include('psproduct.php');
 if (isset($_SESSION['login'])) {
@@ -27,7 +28,7 @@ if (isset($_SESSION['login'])) {
             NULL
         );
 
-        $result = $product->saveProduct();
+        $result = $product->savePSProduct();
         if ($result) {
             echo "<h2>New Product #$PSProductID successfully added</h2>\n";
         } else {

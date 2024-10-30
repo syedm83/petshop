@@ -116,4 +116,4 @@ VALUES
 SELECT * FROM `PSProducts`
 
 DELETE FROM `PSProducts`
-WHERE `PSProductID`= 1007;
+WHERE `PSProductID`= 1009;

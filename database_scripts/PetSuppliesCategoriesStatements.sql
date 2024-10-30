@@ -36,3 +36,6 @@ VALUES
 (5000, 'PGK', 'Pet Grooming Kit', 'For dogs and cats', NOW());
 
 SELECT * FROM `PScategories`
+
+DELETE FROM `PScategories`
+WHERE `PScategoryID`=6000;
