@@ -1,10 +1,9 @@
-/*Manahil Syed, 10/18/2024, IT-202-005, Phase 2 assignment, ms379@njit.edu*/
 -- phpMyAdmin SQL Dump
 -- version 4.2.7.1
 -- http://www.phpmyadmin.net
 --
 -- Host: sql1.njit.edu
--- Generation Time: Oct 18, 2024 at 06:43 PM
+-- Generation Time: Oct 30, 2024 at 03:39 PM
 -- Server version: 8.0.17
 -- PHP Version: 7.4.8
 
@@ -44,8 +43,9 @@ CREATE TABLE IF NOT EXISTS `PSProducts` (
 --
 
 INSERT INTO `PSProducts` (`PSProductID`, `PSProductCode`, `PSProductName`, `PSdescription`, `PSAisle_Number`, `PSCategoryID`, `PSWholesalePrice`, `PSListPrice`, `DateCreated`) VALUES
+(101, 'CAL', 'Calico Cat Kitten', 'Calico Kitten -- 3 months old', '0', 100, 100.00, 200.00, '2024-10-30 11:13:58'),
 (1001, 'PB', 'Pet Bed', 'A medium sized pet bed, perfect for both cats and dogs! Contains orthopedic filling that contours to your pet''s shape, providing optimal comfort + alleviating pressure points.', 'A10', 1000, 15.00, 20.00, '2024-10-18 13:46:47'),
-(1002, 'PBC', 'Covered Cat Bed', 'Give your feline friend the ultimate cozy retreat with our covered cat bed, designed for warmth and privacy. Crafted with soft, plush materials and a stylish exterior, this bed provides a perfect haven for your kitty to curl up and feel secure.', 'A10', 1000, 10.00, 15.00, '2024-10-18 13:52:24'),
+(1002, 'PBC', 'Covered Cat Bed', 'Give your feline friend the ultimate cozy retreat with our covered cat bed, designed for warmth and privacy. Crafted with soft, plush materials and a stylish exterior, this bed provides a perfect haven for your kitty to curl up and feel secure.', '0', 1000, 12.00, 15.00, '2024-10-18 13:52:24'),
 (1003, 'PBD', 'Heated Dog Bed', 'Keep your furry companion warm and comfortable with our heated flat dog bed, perfect for chilly days and nights. Featuring a soft, durable surface and adjustable heat settings, this bed ensures your dog enjoys a restful sleep while staying snug and cozy.', 'A10', 1000, 30.00, 45.00, '2024-10-18 13:53:35'),
 (2001, 'ADF', 'Automatic Pet Feeder', 'The automatic dry food feeder ensures your pets receive the perfect portion of kibble at scheduled times, promoting healthy eating habits and preventing overeating. With customizable feeding schedules and a large capacity, this feeder is perfect for busy pet owners who want to keep their furry friends happy and well-fed, even when they''re not home.', 'B10', 2000, 40.00, 50.00, '2024-10-18 13:54:51'),
 (2002, 'AWF', 'Automatic Pet Wet Food Feeder', 'The automatic wet food feeder provides your pets with fresh, portioned meals at designated times, ensuring they enjoy the taste and nutrition they need without the hassle of manual feeding. Designed with sealed compartments to keep food fresh, this feeder is perfect for pet owners looking to simplify mealtime while maintaining their furry friends'' dietary needs.', 'B10', 2000, 60.00, 70.00, '2024-10-18 13:58:04'),

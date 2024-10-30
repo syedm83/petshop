@@ -1,10 +1,9 @@
-/*Manahil Syed, 10/18/2024, IT-202-005, Phase 2 assignment, ms379@njit.edu*/
 -- phpMyAdmin SQL Dump
 -- version 4.2.7.1
 -- http://www.phpmyadmin.net
 --
 -- Host: sql1.njit.edu
--- Generation Time: Oct 18, 2024 at 06:42 PM
+-- Generation Time: Oct 30, 2024 at 03:38 PM
 -- Server version: 8.0.17
 -- PHP Version: 7.4.8
 
@@ -40,12 +39,12 @@ CREATE TABLE IF NOT EXISTS `PScategories` (
 --
 
 INSERT INTO `PScategories` (`PScategoryID`, `PScategoryCode`, `PScategoryName`, `PScategoryModel`, `DateCreated`) VALUES
+(100, 'MEW', 'Cat', 'Calico', '2024-10-30 11:11:05'),
 (1000, 'PB', 'Pet Bed', 'Large', '2024-10-18 11:31:22'),
 (2000, 'APF', 'Automatic Pet Feeder', 'With Timer', '2024-10-18 11:31:39'),
 (3000, 'CT', 'Cat Tree', 'Tall, 6ft and up', '2024-10-18 11:31:40'),
 (4000, 'DLC', 'Dog Leash and Collar Kit', 'Small', '2024-10-18 11:31:41'),
-(5000, 'PGK', 'Pet Grooming Kit', 'For dogs and cats', '2024-10-18 11:39:46'),
-(6000, 'meow', 'tester', 'large', '2024-10-18 14:24:55');
+(5000, 'PGK', 'Pet Grooming Kit', 'For dogs and cats', '2024-10-18 11:39:46');
 
 --
 -- Indexes for dumped tables
