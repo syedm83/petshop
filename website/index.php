@@ -8,13 +8,18 @@ include("psproduct.php");
 <!DOCTYPE html>
 <html>
 <head>
-   <title>Pet Store Inventor</title>
+  <title>Pet Store Inventory</title>
+  <link rel="stylesheet" type="text/css" href="ps_styles.css">
+
+  <link rel="icon" type="favicon/png" href="images/favicon.png">
 </head>
+</html>
+
 <body>
    <header>
        <?php include("header.inc.php"); ?>
    </header>
-   <section style="height: 425px;">
+   <section style="height: 375px;">
        <nav style="float: left; height: 100%;">
            <?php include("nav.inc.php"); ?>
        </nav>

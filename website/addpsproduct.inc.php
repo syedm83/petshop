@@ -3,10 +3,11 @@
 
 //include('psproduct.php');
 if (isset($_SESSION['login'])) {
-    $PSProductID = $_POST['PSProductID'];
+    $PSProductID = filter_input(INPUT_POST, 'PSProductID', FILTER_VALIDATE_INT); //could cause some error
     if ((trim($PSProductID) == '') or (!is_numeric($PSProductID))) {
         echo "<h2>Sorry, you must enter a valid item ID number</h2>\n";
-    }
+    } else if (PSProduct::findPSProduct($PSProductID)) {
+        echo "<h2>Sorry, An item with the ID #$PSProductID already exists</h2>\n";}
   else {
         $PSProductCode = htmlspecialchars($_POST['PSProductCode']);
         $PSProductName = htmlspecialchars($_POST['PSProductName']);

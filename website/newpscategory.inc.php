@@ -3,7 +3,7 @@
    <table cellpadding="1" border="0">
        <tr>
           <td>Category ID:</td>
-          <td><input type="number" name="PScategoryID" size="4" min="100" max="999" required></td>
+          <td><input type="number" name="PScategoryID" size="4" min="1000" max="9999" required></td>
        </tr>
        <tr>
          <td>Category Code:</td>

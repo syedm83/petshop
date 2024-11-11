@@ -1,0 +1,134 @@
+body {
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 80%;
+    color: #333333;
+    margin: 8px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: #f0f8f4; /* Soft pastel mint green */
+}
+
+h1 {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 140%; /* Larger size for titles */
+    color: #2c3e50; /* Muted dark blue for titles */
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 130%;
+    color: #2c3e50; /* Dark muted blue for secondary headings */
+    margin: 0px;
+    padding: 0px;
+}
+
+h3 {
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 120%;
+    color: #1a4d6e; /* Muted grayish color for subtler headings */
+    margin: 0px;
+    padding: 0px;
+}
+
+h4 {
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 110%;
+    color: #7f8c8d; /* Same as h3 for consistency */
+    margin: 0px;
+    padding: 0px;
+}
+
+footer {
+    font-family: Geneva, Tahoma, sans-serif;
+    clear: both;
+    text-align: center;
+    padding: 7px;
+    border-bottom: 1px solid #E2EAEF;
+    border-top: 1px solid #E2EAEF;
+    background-color: #a3d8d3; /* Soft pastel teal for footer */
+    width: 100%;
+}
+
+main {
+    padding: 5px;
+    border-top: 1px solid #E2EAEF;
+    float: left;
+    width: 55%;
+    height: 100%;
+}
+
+main table {
+    padding: 2px;
+}
+
+main td {
+    padding: 2px;
+}
+
+header {
+    padding: 7px;
+    border-bottom: 1px solid #E2EAEF;
+    height: 40px;
+    width: 100%;
+}
+
+nav {
+    padding: 5px;
+    border-bottom: 1px solid #E2EAEF;
+    border-top: 1px solid #E2EAEF;
+    border-right: 1px solid #E2EAEF;
+    background-color: #a3d8d3; /* Same pastel teal for the sidebar */
+    width: 20%;
+}
+
+a {
+    color: #3498db; /* A vibrant blue for readability */
+    text-decoration: none;
+}
+
+a:link {
+    color: #3498db; /* Vibrant blue for link color */
+    text-decoration: none;
+}
+
+a:visited {
+    color: #2980b9; /* A darker blue for visited links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2ecc71; /* Soft pastel green for hover effect */
+    text-decoration: underline;
+}
+
+input {
+    border: 1px solid currentcolor;
+}
+
+input[type=submit] {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+input:required:invalid {
+    border: 1px solid red;
+}
+
+input:required:valid {
+    border: 1px solid limegreen;
+}
+
+input:focus {
+    background-color: #e6f7fa;
+}
+
+select {
+    width: 100%;
+    max-width: 1200px;
+    white-space: nowrap;
+    overflow-x: auto;
+    display: block;
+    height: auto;
+    padding: 5px;
+}

@@ -38,4 +38,4 @@ VALUES
 SELECT * FROM `PScategories`
 
 DELETE FROM `PScategories`
-WHERE `PScategoryID`=6000;
+WHERE `PScategoryID`=100;

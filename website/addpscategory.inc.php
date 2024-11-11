@@ -6,6 +6,8 @@ if (isset($_SESSION['login'])) {
     
     if (trim($PScategoryID) == '' || !is_int($PScategoryID)) {
         echo "<h2>Sorry, you must enter a valid category ID number</h2>\n";
+    } else if (PSCategory::findPSCategory($PScategoryID)) {
+        echo "<h2>Sorry, A category with the ID #$PScategoryID already exists</h2>\n";
     } else {
         $PScategoryCode = htmlspecialchars($_POST['PScategoryCode']);
         $PScategoryName = htmlspecialchars($_POST['PScategoryName']);
