@@ -5,13 +5,13 @@ body {
     margin: 8px;
     padding: 0px;
     overflow-x: hidden;
-    background-color: #f0f8f4; /* Soft pastel mint green */
+    background-color: #f0f8f4; 
 }
 
 h1 {
     font-family: Verdana, Arial, sans-serif;
-    font-size: 140%; /* Larger size for titles */
-    color: #2c3e50; /* Muted dark blue for titles */
+    font-size: 140%; 
+    color: #2c3e50; 
     margin: 0px;
     padding: 0px;
 }
@@ -19,7 +19,7 @@ h1 {
 h2 {
     font-family: Geneva, Tahoma, sans-serif;
     font-size: 130%;
-    color: #2c3e50; /* Dark muted blue for secondary headings */
+    color: #2c3e50; 
     margin: 0px;
     padding: 0px;
 }
@@ -27,7 +27,7 @@ h2 {
 h3 {
     font-family: Geneva, Tahoma, sans-serif;
     font-size: 120%;
-    color: #1a4d6e; /* Muted grayish color for subtler headings */
+    color: #1a4d6e; 
     margin: 0px;
     padding: 0px;
 }
@@ -35,7 +35,7 @@ h3 {
 h4 {
     font-family: Geneva, Tahoma, sans-serif;
     font-size: 110%;
-    color: #7f8c8d; /* Same as h3 for consistency */
+    color: #7f8c8d; 
     margin: 0px;
     padding: 0px;
 }
@@ -44,10 +44,10 @@ footer {
     font-family: Geneva, Tahoma, sans-serif;
     clear: both;
     text-align: center;
-    padding: 7px;
+    padding: 20px;
     border-bottom: 1px solid #E2EAEF;
     border-top: 1px solid #E2EAEF;
-    background-color: #a3d8d3; /* Soft pastel teal for footer */
+    background-color: #a3d8d3; 
     width: 100%;
 }
 
@@ -79,27 +79,27 @@ nav {
     border-bottom: 1px solid #E2EAEF;
     border-top: 1px solid #E2EAEF;
     border-right: 1px solid #E2EAEF;
-    background-color: #a3d8d3; /* Same pastel teal for the sidebar */
+    background-color: #a3d8d3;
     width: 20%;
 }
 
 a {
-    color: #3498db; /* A vibrant blue for readability */
+    color: #3498db;
     text-decoration: none;
 }
 
 a:link {
-    color: #3498db; /* Vibrant blue for link color */
+    color: #3498db;
     text-decoration: none;
 }
 
 a:visited {
-    color: #2980b9; /* A darker blue for visited links */
+    color: #2980b9; 
     text-decoration: none;
 }
 
 a:hover {
-    color: #2ecc71; /* Soft pastel green for hover effect */
+    color: #2ecc71;
     text-decoration: underline;
 }
 

@@ -14,7 +14,7 @@
    }
 </style>
 <div class="header-div">
-    <img src="images/favicon.png" alt="PS Shop Logo">
+    <img src="images/mine.png" alt="PS Shop Logo">
 
    <div>
     <h1>Pet Shop</h1>

@@ -7,13 +7,13 @@ include("psproduct.php");
 ?>
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Pet Store Inventory</title>
   <link rel="stylesheet" type="text/css" href="ps_styles.css">
+  <link rel="icon" type="image/png" href="images/mine.png">
+  </head>
 
-  <link rel="icon" type="favicon/png" href="images/favicon.png">
-</head>
-</html>
 
 <body>
    <header>

@@ -7,15 +7,15 @@
        </tr>
        <tr>
          <td>Category Code:</td>
-        <td><input type="text" name="PScategoryCode" size="20" placeholder="XXX" minlength="3" required></td>
+        <td><input type="text" name="PScategoryCode" size="20" placeholder="XXX" minlength="3" maxlength="20" required></td>
        </tr>
        <tr>
            <td>Category Name:</td>
-           <td><input type="text" name="PScategoryName" size="50" required></td>
+           <td><input type="text" name="PScategoryName" size="50" minlength="3" maxlength="100"></td>
        </tr>
        <tr>
            <td>Category Model:</td>
-           <td><input type="text" name="PScategoryModel" size="50" required></td>
+           <td><input type="text" name="PScategoryModel" size="50" minlength="1" maxlength="100" required></td>
        </tr>
    </table><br>
    <input type="submit" value="Submit New Category">
