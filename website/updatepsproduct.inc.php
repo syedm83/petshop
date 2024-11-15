@@ -37,7 +37,7 @@ if (!isset($_POST['PSProductID']) || !is_numeric($_POST['PSProductID'])) {
                 </tr>
                 <tr>
                     <td>Category ID</td>
-                    <td><input type="text" name="PSCategoryID" value="<?php echo htmlspecialchars($product->PSCategoryID); ?>" required></td>
+                    <td><input type="int" name="PSCategoryID" value="<?php echo htmlspecialchars($product->PSCategoryID); ?>" required></td>
                 </tr>
                 <tr>
                     <td>Wholesale Price</td>

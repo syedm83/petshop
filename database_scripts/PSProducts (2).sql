@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: sql1.njit.edu
--- Generation Time: Oct 30, 2024 at 03:39 PM
+-- Generation Time: Nov 15, 2024 at 01:48 AM
 -- Server version: 8.0.17
 -- PHP Version: 7.4.8
 
@@ -43,7 +43,7 @@ CREATE TABLE IF NOT EXISTS `PSProducts` (
 --
 
 INSERT INTO `PSProducts` (`PSProductID`, `PSProductCode`, `PSProductName`, `PSdescription`, `PSAisle_Number`, `PSCategoryID`, `PSWholesalePrice`, `PSListPrice`, `DateCreated`) VALUES
-(101, 'CAL', 'Calico Cat Kitten', 'Calico Kitten -- 3 months old', '0', 100, 100.00, 200.00, '2024-10-30 11:13:58'),
+(101, 'CALI', 'Calico Cat Kitten', 'Cat!', '0', 0, 250.00, 299.99, '2024-10-30 11:13:58'),
 (1001, 'PB', 'Pet Bed', 'A medium sized pet bed, perfect for both cats and dogs! Contains orthopedic filling that contours to your pet''s shape, providing optimal comfort + alleviating pressure points.', 'A10', 1000, 15.00, 20.00, '2024-10-18 13:46:47'),
 (1002, 'PBC', 'Covered Cat Bed', 'Give your feline friend the ultimate cozy retreat with our covered cat bed, designed for warmth and privacy. Crafted with soft, plush materials and a stylish exterior, this bed provides a perfect haven for your kitty to curl up and feel secure.', '0', 1000, 12.00, 15.00, '2024-10-18 13:52:24'),
 (1003, 'PBD', 'Heated Dog Bed', 'Keep your furry companion warm and comfortable with our heated flat dog bed, perfect for chilly days and nights. Featuring a soft, durable surface and adjustable heat settings, this bed ensures your dog enjoys a restful sleep while staying snug and cozy.', 'A10', 1000, 30.00, 45.00, '2024-10-18 13:53:35'),
@@ -58,7 +58,8 @@ INSERT INTO `PSProducts` (`PSProductID`, `PSProductCode`, `PSProductName`, `PSde
 (4003, 'TLC', 'Training Dog Leash and Collar Kit', 'The training harness with leash is designed to help pet owners effectively guide and train their dogs while preventing pulling. With padded straps and adjustable points, it ensures comfort and security, making it perfect for both training sessions and everyday adventures.', 'D10', 4000, 15.00, 19.99, '2024-10-18 14:06:16'),
 (5001, 'BPGK', 'Professional Grooming Kit', 'The professional grooming kit offers a comprehensive set of tools, including clippers, scissors, and various brushes, perfect for pet owners who want to achieve salon-quality results at home. With ergonomic designs and high-quality materials, this kit is suitable for all grooming needs, ensuring your pet looks fabulous.', 'E10', 5000, 30.00, 45.00, '2024-10-18 14:11:11'),
 (5002, 'DPGK', 'De-shedding Tool Kit', 'The deshedding tool kit features specialized brushes and tools designed to reduce shedding and remove loose fur from your pet’s coat. Ideal for long-haired breeds, this kit helps keep your home fur-free while promoting a healthy and shiny coat.', 'E10', 5000, 23.00, 30.00, '2024-10-18 14:11:12'),
-(5003, 'NPGK', 'Basic Grooming Tool Kit', 'The basic grooming tool kit includes essential brushes, combs, and nail clippers, perfect for maintaining your pet''s coat and hygiene at home. Compact and easy to use, this kit provides all the basics for routine grooming, ensuring your furry friend looks and feels their best.', 'E10', 5000, 10.00, 15.00, '2024-10-18 14:11:13');
+(5003, 'NPGK', 'Basic Grooming Tool Kit', 'The basic grooming tool kit includes essential brushes, combs, and nail clippers, perfect for maintaining your pet''s coat and hygiene at home. Compact and easy to use, this kit provides all the basics for routine grooming, ensuring your furry friend looks and feels their best.', 'E10', 5000, 10.00, 15.00, '2024-10-18 14:11:13'),
+(6001, 'ALL', 'Allergy Medicine', 'Perfect for dogs and cats! Fights allergic reactions. Easy to swallow paste.', '0', 6000, 20.00, 22.99, '2024-11-14 20:39:43');
 
 --
 -- Indexes for dumped tables
