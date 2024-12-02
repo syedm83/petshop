@@ -23,7 +23,7 @@ if (isset($_SESSION['login'])) {
       } else {
          echo "<h2>Update Canceled for product $PSProductID</h2>\n";
          }
-      } else {
-         echo "<h2>Please login first</h2>\n";
-      }
+   } else {
+      echo "<h2>Please login first</h2>\n";
+   }
 ?>
