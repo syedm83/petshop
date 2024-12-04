@@ -134,7 +134,5 @@ class PSCategory
        $db->close();
        return $result;
    }
+
 }
-
-
-

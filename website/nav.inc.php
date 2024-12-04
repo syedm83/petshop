@@ -1,5 +1,4 @@
 <!-- Manahil Syed, 10/30/2024, IT-202-005, Phase 3 assignment, ms379@njit.edu -->
-
 <table width="100%" cellpadding="3">
    <?php
    if (!isset($_SESSION['login'])) {
@@ -61,7 +60,7 @@
                    <label>Search for Product:</label><br>
                    <input type="text" name="PSProductID" size="14" />
                    <input type="submit" value="find" />
-                   <input type="hidden" name="content" value="updatepsproduct">
+                   <input type="hidden" name="content" value="updatePSProduct">
                    </form>
            </td>
        </tr>

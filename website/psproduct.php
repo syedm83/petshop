@@ -2,7 +2,6 @@
 //Manahil Syed, 10/30/2024, IT-202-005, Phase 3 assignment, ms379@njit.edu
 
 require_once('database.php');
-
 class PSProduct
 {
    public $PSProductID;
@@ -162,5 +161,6 @@ class PSProduct
        $db->close();
        return $result;
    }
+
 }
 ?>
