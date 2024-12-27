@@ -1,5 +1,4 @@
 <?php
-//Manahil Syed, 10/30/2024, IT-202-005, Phase 3 assignment, ms379@njit.edu
 
 if (!isset($_REQUEST['PScategoryID']) or (!is_numeric($_REQUEST['PScategoryID']))) {
 ?>

@@ -1,5 +1,4 @@
 <?php
-//Manahil Syed, 10/18/2024, IT-202-005, Phase 2 assignment, ms379@njit.edu
 
 //error_log("\$_GET " . print_r($_GET, true));
 //include("pscategory.php");

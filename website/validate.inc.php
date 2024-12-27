@@ -1,5 +1,4 @@
 <?php
-//Manahil Syed, 9/25/2024, IT-202-005, Phase 1 assignment, ms379@njit.edu
 require_once('database.php');
 $emailAddress = htmlspecialchars($_POST['emailAddress']);
 $password = $_POST['password'];

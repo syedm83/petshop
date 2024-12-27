@@ -1,4 +1,3 @@
-<!-- Manahil Syed, 10/30/2024, IT-202-005, Phase 3 assignment, ms379@njit.edu -->
 <table width="100%" cellpadding="3">
    <?php
    if (!isset($_SESSION['login'])) {
