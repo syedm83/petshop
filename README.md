@@ -1,2 +1,2 @@
-# ms379-IT202-Project
-IT-202 project repo
+# Pet Store Inventory Website
+Built using SQL, PHP, Javascript (XML)
