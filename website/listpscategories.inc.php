@@ -21,7 +21,6 @@
 <form name="categories" method="post">
    <select ondblclick="listbox_dblclick()" name="PScategoryID" size="20">
 <?php
-//Manahil Syed, 10/18/2024, IT-202-005, Phase 2 assignment, ms379@njit.edu
 
 //include("pscategory.php");
 $PScategories = PSCategory::getPSCategories();
