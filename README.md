@@ -1,3 +1,3 @@
 # Pet Store Inventory Website
 Built using SQL, PHP, Javascript (XML) -- Fall 2024 :)
-https://github.com/user-attachments/assets/13959d3f-9653-4912-b062-e93bb9e59fb4
+https://github.com/user-attachments/assets/82191ea6-8eaa-4318-ab31-379a3f28d3d2
